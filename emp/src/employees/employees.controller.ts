@@ -9,7 +9,6 @@ export class EmployeesController {
 
   @Get()
     getEmployees() {
-        console.log("sanjayrahul")
         return this.employeesService.getEmployee();
     }
 
